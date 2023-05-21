@@ -1,6 +1,6 @@
 # --- !Ups
 
-CREATE TABLE `book_store`.`books`
+CREATE TABLE `books`
 (
     `id` BIGINT NOT NULL AUTO_INCREMENT ,
     `name` VARCHAR(25) NOT NULL ,
