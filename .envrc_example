@@ -4,9 +4,9 @@ export PATH=
 # java 11 path
 export PATH=
 
-export PORT=15006
+export PORT=
 
-export APPLICATION_SECRET="QCY?tAnfk?aZ?iwrNwnxIlR6CTf:G3gf:90Latabg@5241ABR5W:1uDFN];Ik@n"
+export APPLICATION_SECRET=
 
 export REPO_VERSION=$(grep "version := " build.sbt | awk -F\" '{print $2}')
 export REPO_NAME=$(grep "name := " build.sbt | awk -F\" '{print $2}')
